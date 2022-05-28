@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Nutritious</title>
+    <link rel="shortcut icon" href="img/main_photo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/main_photo.jpg" alt="Alex Smith">
+              </div>
+              <div class="header-titles">
+                <h2>Nutritious</h2>
+                <h4>An App for Getting Nutritions around fruits</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="fa fa-home"></span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="fa fa-mobile-screen"></span>
+                  <span class="link-text">About The App</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="fa fa-tachometer"></span>
+                  <span class="link-text">Test Online</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="fa fa-calculator"></span>
+                  <span class="link-text">BMI Calculator</span>
+                </a>
+              </li>
+              <li>
+                <a href="#blog" class="nav-anim">
+                  <span class="fa fa-users"></span>
+                  <span class="link-text">Team</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="fa fa-star"></span>
+                  <span class="link-text">Leave Feedback</span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- <div class="social-links">
+              <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div> -->
+
+            <div class="header-buttons">
+              <a href="#" target="_blank" class="btn btn-primary">Download App</a>
+            </div>
+
+            <div class="copyrights">© 2022 All rights reserved.</div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="fa fa-angle-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="fa fa-angle-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Nutritious</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Nutritions from by the name of fruits or vegetables</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">Nutritions from by image from gallery or camera</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="page-title">
+                  <h2>About <span>The app</span></h2>
+                </div>
+
+                <div class="section-content">
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>
+                        This app represents a simple and convenient approach to perform fruit/vegetable recognition and predict nutrition information of the fruit/vegetable using MobileNet architecture. The datasets employed for analysis are acquired from “Fruit and Vegetables SSM” of image processing challenges. The fruit categories include 29 items which are Apples, Bananas, Broccolis, Carrots, Cauliflowers, Chilies, Coconut, Cucumbers, Custard Apples, Dates, Dragon Fruits, Eggs, Garlics, Grapes, Green Lemons, Jackfruits, Kiwis, Mangos, Okras, Onions, Oranges, Papayas, Peanuts, Pineapples, Pomegranates, Star Fruits, Strawberries, Melons, Mushrooms. Moreover, the experimentations are carried out on various other fruit samples collected from multiple sources. 
+                      </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">App Type</span>
+                            <span class="value">Cross Platform (android and ios)</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Compatible for</span>
+                            <span class="value">3+</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Availability</span>
+                            <span class="value">All Over the world</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Main <span>Purpose</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-store"></i>
+                            </div>
+                            <div class="ci-text">
+                              <p>The objective of this project is to help people to find the proper nutrition details from what they eat regularly (fruits and vegetables). One can easily use this software/app to check the amount of each nutrient, how much he/she need to keep himself/herself to fit and sound and the required amount based on his/her Body Mass Index (BMI).</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Services -->
+
+                  <div class="white-space-30"></div>
+
+
+                  <!-- Pricing -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+
+                      <div class="block-title">
+                        <h3>Pricing</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class=" col-xs-12 col-sm-12 ">
+                      <div class="fw-pricing clearfix row">
+                        
+                        <div class="fw-package-wrap col-md-12 ">
+                          <div class="fw-package">
+                            <div class="fw-heading-row">
+                              <span>Free for All</span>
+                            </div>
+                            
+                            <div class="fw-pricing-row">
+                              <span>0</span>
+                              <small>per month</small>
+                            </div>
+                            
+                            <div class="fw-button-row">
+                              <a href="#" target="_self" class="btn btn-secondary">Download Now</a>
+                            </div>
+
+                            <div class="fw-default-row">Full Access</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Pricing -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Fun Facts -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+
+                      <div class="block-title">
+                        <h3>Fun <span>Facts</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-heart"></i>
+                        <h4>Tested</h4>
+                        <span class="fun-fact-block-value">100+</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-clock"></i>
+                        <h4>Time Spent</h4>
+                        <span class="fun-fact-block-value">6 Months</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 ">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-star"></i>
+                        <h4>Team Members</h4>
+                        <span class="fun-fact-block-value">3</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Fun Facts -->
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="page-title">
+                  <h2>Test Online</h2>
+                </div>
+
+                <div class="section-content">
+
+
+                <div class="white-space-50"></div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="mb-3">Upload Image</h4>
+                        <div class="white-space-30"></div>
+                        <form action="">
+                            <input type="file" name="" id="">
+                            <button class="btn btn-light">Upload</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="page-title">
+                  <h2>BMI Calculator</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Height</label>
+                        <div class="mt-3"></div>
+                        <input type="text" class="form-control" placeholder="Height in CM" value="0" name="height" id="height">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">Weight</label>
+                        <div class="mt-3"></div>
+                        <input type="text" class="form-control" placeholder="Weight in KG" name="weight" id="weight">
+                    </div>
+                    <div class="col-md-12 mt-5 text-center">
+                        <button class="btn btn-light bmiCalculate">Calculate BMI</button>
+                        <div class="mt-3">
+                            <h3 id="bmiVal">0</h3>
+                            <p id="bmiStat">Status</p>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Blog Subpage -->
+              <section data-id="blog" class="animated-section">
+                <div class="page-title">
+                  <h2>Executive Team</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/shakil.jpg" class="img-fluid card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <div class="mt-3"></div>
+                                <h3>Sherajul Islam</h3>
+                                <p>Developer(Mobile)</p>
+                                <ul class="list-unstyled">
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/maruf.jpg" class="img-fluid card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <div class="mt-3"></div>
+                                <h3>MD. Maruf Hossain</h3>
+                                <p>Developer(Web)</p>
+                                <ul class="list-unstyled">
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/shadik.jpg" class="img-fluid card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <div class="mt-3"></div>
+                                <h3>Shadik Faysal</h3>
+                                <p>Developer(Backend)</p>
+                                <ul class="list-unstyled">
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block mx-2">
+                                        <a href="" class="text-white">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+              </section>
+              <!-- End of Blog Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="page-title">
+                  <h2>Leave a Short Feedback</h2>
+                </div>
+
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" name="" id="">
+                    <input type="text" placeholder="Enter Your Email" class="mt-3" name="" id="">
+                    <textarea name="" class="form-control mt-3" placeholder="Leave a Comment" id="" cols="30" rows="10"></textarea>
+                    <button class="mt-3 btn btn-light">SUBMIT</button>
+                </form>
+
+
+                <div class="page-title mt-5">
+                    <h2>Previous Feedbacks</h2>
+                  </div>
+                  <p>No Feedbacks till now</p>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script data-cfasync="false" src="js/email-decode.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"712721ed3cc84a23","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
