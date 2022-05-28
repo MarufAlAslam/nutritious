@@ -10,7 +10,7 @@
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="lmpixels" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
@@ -102,7 +102,7 @@
             </div> -->
 
             <div class="header-buttons">
-              <a href="#" target="_blank" class="btn btn-primary">Download App</a>
+              <a href="https://drive.google.com/file/d/1q_j3fUq2Mp9nLr-zG5gPHvMm5dy2V1q5/view?ts=62923145" target="_blank" class="btn btn-primary">Download App</a>
             </div>
 
             <div class="copyrights">© 2022 All rights reserved.</div>
@@ -246,7 +246,7 @@
                             </div>
                             
                             <div class="fw-button-row">
-                              <a href="#" target="_self" class="btn btn-secondary">Download Now</a>
+                              <a href="https://drive.google.com/file/d/1q_j3fUq2Mp9nLr-zG5gPHvMm5dy2V1q5/view?ts=62923145" target="_self" class="btn btn-secondary">Download Now</a>
                             </div>
 
                             <div class="fw-default-row">Full Access</div>
@@ -312,19 +312,90 @@
                 <div class="section-content">
 
 
-                <div class="white-space-50"></div>
-
-
-                <div class="row">
-                    <div class="col-12">
-                        <h4 class="mb-3">Upload Image</h4>
-                        <div class="white-space-30"></div>
-                        <form action="">
-                            <input type="file" name="" id="">
-                            <button class="btn btn-light">Upload</button>
-                        </form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Search By Name</h4>
+                            <div class="mt-3"></div>
+                            <input type="text" class="h-50" name="" id="fruitVegName">
+                            <div class="mt-3"></div>
+                            <button class="btn btn-light searchByName">Search</button>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <div class="overlay"></div>
+                            <span class="comingSoon">
+                                Coming Soon
+                            </span>
+                            <h4 class="mb-3">Upload Image</h4>
+                            <!-- <div class="white-space-30"></div> -->
+                            <form action="" class="mt-3">
+                                <input type="file" class="h-50 pt-3" accept=".jpg, .jpeg, .png" name="" id="imageFile">
+                                <button class="btn btn-light mt-3 uploadBtn">Upload</button>
+                                <p id="target info"></p>
+                            </form>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="white-space-50"></div>
+                    <div class="testResult">
+                        <div class="page-title">
+                            <h2>Test Result</h2>
+                          </div>
+                        <h2 class="mt-3">Name: <span class="fruitVegName"></span></h2>
+                        <h3 class="mt-5">General Items:</h3>
+                        <table class="mt-3 table generalItems" id="generalTable">
+                            <tr>
+                                <td class="info">
+                                    <h4><b class="info">Nutrient Name</b></h4>
+                                </td>
+                                <td class="info">
+                                  <h4>
+                                    <b class="info">
+                                        Nutrient Value(unit)
+                                    </b>
+                                  </h4>
+                                </td>
+                            </tr>
+                           
+                        </table>
+    
+    
+    
+                        <h3 class="mt-5">Minerals:</h3>
+                        <table class="mt-3 table mineralItems" id="mineralItems">
+                            <tr>
+                                <td class="info">
+                                    <h4><b class="info">Nutrient Name</b></h4>
+                                </td>
+                                <td class="info">
+                                  <h4>
+                                    <b class="info">
+                                        Nutrient Value(unit)
+                                    </b>
+                                  </h4>
+                                </td>
+                            </tr>
+                           
+                        </table>
+    
+    
+    
+                        <h3 class="mt-5">Vitamins:</h3>
+                        <table class="mt-3 table vitaminItems" id="vitaminItems">
+                            <tr>
+                                <td class="info">
+                                    <h4><b class="info">Nutrient Name</b></h4>
+                                </td>
+                                <td class="info">
+                                  <h4>
+                                    <b class="info">
+                                        Nutrient Value(unit)
+                                    </b>
+                                  </h4>
+                                </td>
+                            </tr>
+                           
+                        </table>
+                    </div>
                 </div>
               </section>
               <!-- End of Resume Subpage -->
@@ -336,15 +407,29 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-3">
                         <label for="">Height</label>
                         <div class="mt-3"></div>
                         <input type="text" class="form-control" placeholder="Height in CM" value="0" name="height" id="height">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-3">
                         <label for="">Weight</label>
                         <div class="mt-3"></div>
                         <input type="text" class="form-control" placeholder="Weight in KG" name="weight" id="weight">
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <label for="">Gender</label>
+                        <div class="mt-3"></div>
+                        <select name="" class="form-control" id="">
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <label for="">Age</label>
+                        <div class="mt-3"></div>
+                        <input type="text" class="form-control" placeholder="Age in Years" name="age" id="age">
                     </div>
                     <div class="col-md-12 mt-5 text-center">
                         <button class="btn btn-light bmiCalculate">Calculate BMI</button>
@@ -505,5 +590,7 @@
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"712721ed3cc84a23","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
+
+  <script src="js/custom.js"></script>
 </body>
 </html>

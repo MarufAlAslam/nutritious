@@ -13,3 +13,94 @@
 .mx-2{
     margin: 0 5px !important;
 }
+option{
+    color: black !important;
+}
+.h-50{
+    height: 50px !important;
+    vertical-align: middle !important;
+}
+.h-50.pt-3 {
+	padding-top: 14px;
+}
+table {
+	width: 100% !important;
+}
+.fruitVegName, .info{
+    color: #04b4e0 !important;
+}
+.testResult{
+    opacity: 0.2;
+}
+.position-relative{
+    position: relative !important;
+}
+.comingSoon {
+	position: absolute;
+	/* background: red; */
+	font-size: 45px;
+	transform: rotate(-25deg) translateY(9px) translateX(30px);
+	color: yellow;
+	background: black;
+	line-height: 1;
+	z-index: 100;
+	padding: 10px;
+	border-radius: 10px;
+    animation: colorChanges 1s infinite;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rebeccapurple;
+	z-index: 100;
+	opacity: 0;
+}
+@keyframes colorChanges {
+    0%{
+        color: yellow;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: red;
+    }
+    75%{
+        color: pink;
+    }
+    100%{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .comingSoon {
+        position: absolute;
+        /* background: red; */
+        font-size: 32px;
+        transform: unset;
+        color: yellow;
+        background: black;
+        line-height: 1;
+        z-index: 100;
+        padding: 10px;
+        border-radius: 10px;
+        animation: colorChanges 1s infinite;
+        top: 36px;
+        width: 100%;
+        text-align: center;
+    }
+    td {
+        font-size: 12px;
+        width: ;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: ;
+    }
+    .card {
+        margin-bottom: 10px;
+    }
+}
